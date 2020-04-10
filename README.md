@@ -7,3 +7,5 @@ There are webpart sharepoint office 365
 Pre Requisite
 1. Add the library calendar with name Training Events
 2. Add npm sp-pnp-js
+
+Watch my tutorial online on my youtube channel https://www.youtube.com/channel/UC4K9wz-jRHnp88qmIMTclsg
