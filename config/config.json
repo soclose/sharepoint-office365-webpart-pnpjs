@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
+        }
+      ]
+    },
+    "view-schedule-training-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/viewScheduleTraining/ViewScheduleTrainingWebPart.js",
+          "manifest": "./src/webparts/viewScheduleTraining/ViewScheduleTrainingWebPart.manifest.json"
+        }
+      ]
+    },
+    "create-schedule-training-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/createScheduleTraining/CreateScheduleTrainingWebPart.js",
+          "manifest": "./src/webparts/createScheduleTraining/CreateScheduleTrainingWebPart.manifest.json"
+        }
+      ]
+    },
+    "edit-schedule-training-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/editScheduleTraining/EditScheduleTrainingWebPart.js",
+          "manifest": "./src/webparts/editScheduleTraining/EditScheduleTrainingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "ViewScheduleTrainingWebPartStrings": "lib/webparts/viewScheduleTraining/loc/{locale}.js",
+    "CreateScheduleTrainingWebPartStrings": "lib/webparts/createScheduleTraining/loc/{locale}.js",
+    "EditScheduleTrainingWebPartStrings": "lib/webparts/editScheduleTraining/loc/{locale}.js"
+  }
+}

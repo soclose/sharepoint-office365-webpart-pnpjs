@@ -1,11 +1,26 @@
-# sharepoint office 365 webpart using pnpjs
-Webpart office 365 using PnP JS
+## hello-world
 
-There are webpart sharepoint office 365
-- View Schedule Training
+This is where you include your WebPart documentation.
 
-Pre Requisite
-1. Add the library calendar with name Training Events
-2. Add npm sp-pnp-js
+### Building the code
 
-Watch my tutorial online on my youtube channel https://www.youtube.com/channel/UC4K9wz-jRHnp88qmIMTclsg
+```bash
+git clone the repo
+npm i
+npm i -g gulp
+gulp
+```
+
+This package produces the following:
+
+* lib/* - intermediate-stage commonjs build artifacts
+* dist/* - the bundled script, along with other resources
+* deploy/* - all resources which should be uploaded to a CDN.
+
+### Build options
+
+gulp clean - TODO
+gulp test - TODO
+gulp serve - TODO
+gulp bundle - TODO
+gulp package-solution - TODO
