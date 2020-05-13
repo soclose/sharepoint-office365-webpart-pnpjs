@@ -33,6 +33,22 @@
           "manifest": "./src/webparts/editScheduleTraining/EditScheduleTrainingWebPart.manifest.json"
         }
       ]
+    },
+    "view-schedule-training-with-filters-odata-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/viewScheduleTrainingWithFiltersOdata/ViewScheduleTrainingWithFiltersOdataWebPart.js",
+          "manifest": "./src/webparts/viewScheduleTrainingWithFiltersOdata/ViewScheduleTrainingWithFiltersOdataWebPart.manifest.json"
+        }
+      ]
+    },
+    "using-library-j-query-in-pn-p-js-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/usingLibraryJQueryInPnPJs/UsingLibraryJQueryInPnPJsWebPart.js",
+          "manifest": "./src/webparts/usingLibraryJQueryInPnPJs/UsingLibraryJQueryInPnPJsWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -40,6 +56,8 @@
     "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
     "ViewScheduleTrainingWebPartStrings": "lib/webparts/viewScheduleTraining/loc/{locale}.js",
     "CreateScheduleTrainingWebPartStrings": "lib/webparts/createScheduleTraining/loc/{locale}.js",
-    "EditScheduleTrainingWebPartStrings": "lib/webparts/editScheduleTraining/loc/{locale}.js"
+    "EditScheduleTrainingWebPartStrings": "lib/webparts/editScheduleTraining/loc/{locale}.js",
+    "ViewScheduleTrainingWithFiltersOdataWebPartStrings": "lib/webparts/viewScheduleTrainingWithFiltersOdata/loc/{locale}.js",
+    "UsingLibraryJQueryInPnPJsWebPartStrings": "lib/webparts/usingLibraryJQueryInPnPJs/loc/{locale}.js"
   }
 }
