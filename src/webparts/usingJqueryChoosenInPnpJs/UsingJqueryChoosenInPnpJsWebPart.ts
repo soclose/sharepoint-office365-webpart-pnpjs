@@ -93,7 +93,6 @@ export default class UsingJqueryChoosenInPnpJsWebPart extends BaseClientSideWebP
       optionsCity += "<option>--- Please Select ---</option>";
       $(".sample-dropdown-city", document.body).html(optionsCity); 
     }
-    const dropdownCountry = document.querySelector('.sample-dropdown-city').nextSibling;
     
     (<any>jQuery(".sample-dropdown-city", document.body)).trigger("chosen:updated");
     
