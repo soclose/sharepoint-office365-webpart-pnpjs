@@ -49,6 +49,14 @@
           "manifest": "./src/webparts/usingLibraryJQueryInPnPJs/UsingLibraryJQueryInPnPJsWebPart.manifest.json"
         }
       ]
+    },
+    "using-jquery-choosen-in-pnp-js-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/usingJqueryChoosenInPnpJs/UsingJqueryChoosenInPnpJsWebPart.js",
+          "manifest": "./src/webparts/usingJqueryChoosenInPnpJs/UsingJqueryChoosenInPnpJsWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -58,6 +66,7 @@
     "CreateScheduleTrainingWebPartStrings": "lib/webparts/createScheduleTraining/loc/{locale}.js",
     "EditScheduleTrainingWebPartStrings": "lib/webparts/editScheduleTraining/loc/{locale}.js",
     "ViewScheduleTrainingWithFiltersOdataWebPartStrings": "lib/webparts/viewScheduleTrainingWithFiltersOdata/loc/{locale}.js",
-    "UsingLibraryJQueryInPnPJsWebPartStrings": "lib/webparts/usingLibraryJQueryInPnPJs/loc/{locale}.js"
+    "UsingLibraryJQueryInPnPJsWebPartStrings": "lib/webparts/usingLibraryJQueryInPnPJs/loc/{locale}.js",
+    "UsingJqueryChoosenInPnpJsWebPartStrings": "lib/webparts/usingJqueryChoosenInPnpJs/loc/{locale}.js"
   }
 }
